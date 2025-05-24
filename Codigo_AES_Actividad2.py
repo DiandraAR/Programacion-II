@@ -1,3 +1,8 @@
+# Este programa cifra y descifra un mensaje usando el módulo Fernet de la librería cryptography.
+# Utiliza cifrado simétrico (AES) con una clave secreta generada automáticamente.
+# El usuario escribe un mensaje, que se convierte en bytes, se cifra y
+# luego se descifra para mostrar el texto original.
+
 from cryptography.fernet import Fernet
 
 # 1. Generar la clave
